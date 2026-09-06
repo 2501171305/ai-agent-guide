@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '工具安装', link: '/tools/claude-code' },
+      { text: '模型接入', link: '/setup/' },
       { text: '内部经验手册', link: '/experience/how-to-ask' }
     ],
     sidebar: {
@@ -21,6 +22,15 @@ export default defineConfig({
             { text: 'Codex（ChatGPT）', link: '/tools/codex' },
             { text: 'cc-switch', link: '/tools/cc-switch' },
             { text: 'Hermes Agent', link: '/tools/hermes-agent' }
+          ]
+        }
+      ],
+      '/setup/': [
+        {
+          text: '模型接入',
+          items: [
+            { text: '模型接入总览', link: '/setup/' },
+            { text: 'Claude Code 接 DeepSeek', link: '/setup/claude-code-deepseek' }
           ]
         }
       ],
