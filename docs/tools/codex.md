@@ -2,62 +2,65 @@
 
 ## 这是干嘛的
 
-Codex 是 OpenAI 出的**命令行 AI 助手**，跟 Claude Code 是同类工具——都能读文件、写代码、干活，只是「大脑」是 ChatGPT（OpenAI 的模型）。
+Codex 是 OpenAI 出的 AI 助手，2026 年起它已经**合并进了 ChatGPT 桌面应用**里。
 
-如果你平时已经用 ChatGPT，或者公司让你用 ChatGPT 干活，就装这个。
+简单说：你装一个 ChatGPT 桌面版，打开后左上角菜单能在「ChatGPT 聊天」和「Codex 干活」两个模式之间切换。Codex 就是那个"能读文件、写代码、帮你干活"的模式。
+
+如果你平时已经在用 ChatGPT，装它最顺。
 
 ---
 
 ## 装之前准备
 
-Codex 也需要 **Node.js**。如果你已经按 [Claude Code 页](/tools/claude-code) 装过 Node.js，跳过这步；没装的话，先去那页看「装 Node.js」的部分。
-
-另外你需要一个 **ChatGPT 账号**（OpenAI 账号），用来登录。
+一个 **ChatGPT 账号**（Plus / Pro / Business 等付费套餐），登录用。账号开通找 IT。
 
 ---
 
 ## 安装步骤
 
-打开 PowerShell（怎么打开见 [Claude Code 页](/tools/claude-code)），粘贴这行，回车：
+1. 打开 **Microsoft Store**（Windows 自带的应用商店，开始菜单里能找到）
+2. 搜索 `ChatGPT`（或 `OpenAI.Codex`）
+3. 找到官方那个，点「获取 / 安装」
 
-```powershell
-npm install -g @openai/codex
-```
+> 📸 【截图占位】Microsoft Store 搜索 ChatGPT，红框标出官方应用
 
-等它跑完。
+4. 装完后，桌面或开始菜单出现 ChatGPT 图标，双击打开
 
-> 📸 【截图占位】npm install @openai/codex 运行画面
+> 📸 【截图占位】ChatGPT 桌面应用打开后的主界面
+
+---
+
+## 切换到 Codex 模式
+
+打开应用后：
+
+1. 点**左上角的菜单**
+2. 在「ChatGPT Work」和「Codex」之间切换
+3. 选「Codex」就进入干活模式了
+
+> 📸 【截图占位】左上角菜单切换到 Codex
 
 ---
 
 ## 验证装好了
 
-```powershell
-codex --version
-```
-
-看到版本号就成功了。
-
----
-
-## 首次使用：登录
-
-```powershell
-codex
-```
-
-第一次运行会让你登录 ChatGPT 账号（浏览器打开登录页，或输入 API Key）。登录后就能用。
-
-> 📸 【截图占位】首次运行 codex 的登录提示
+登录 ChatGPT 账号后，如果能切到 Codex 界面，输入一句话（比如"你好"）有正常回复，就装好了。
 
 ---
 
 ## 常见问题
 
-### 1. 提示需要订阅
+### 1. 提示需要付费套餐
 
-Codex 需要 ChatGPT 账号有相应的订阅/额度。如果登录后提示没有权限，找 IT 确认账号权限。
+Codex 需要 ChatGPT 的付费套餐（Plus 起步）。如果登录后提示没权限，找 IT 确认账号套餐。
 
-### 2. 和 Claude Code 有啥区别
+### 2. 商店搜不到
 
-两个都能干活。Claude Code 的「大脑」是 Anthropic 的 Claude，Codex 的「大脑」是 OpenAI 的 GPT。团队主力用的是 Claude Code，Codex 作为补充——**有 ChatGPT 账号就用，没有就先不用**。
+确认登录了微软账号、网络正常。公司电脑可能被限制商店安装，联系管理员放行。
+
+### 3. 和 Claude Code 用哪个
+
+- **ChatGPT 重度用户** → 用 Codex（桌面版）
+- **想深度干活 + 公司主力** → 用 Claude Code（VS Code 插件版）
+
+两个不冲突，可以都装。

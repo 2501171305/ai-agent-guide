@@ -16,11 +16,11 @@ hero:
 features:
   - icon: 🤖
     title: Claude Code
-    details: Anthropic 官方命令行 Agent，能读文件、写代码、跑命令，是主力工具
+    details: Anthropic 官方的 VS Code 插件，图形界面操作，能读文件、写代码，是主力工具
     link: /tools/claude-code
   - icon: 💬
     title: Codex（ChatGPT）
-    details: OpenAI 的 Agent 工具，擅长代码和日常问答
+    details: OpenAI 的桌面应用，装在 ChatGPT 里，点开就能用
     link: /tools/codex
   - icon: 🔀
     title: cc-switch
