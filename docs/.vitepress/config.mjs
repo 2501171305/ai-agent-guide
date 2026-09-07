@@ -11,6 +11,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '工具安装', link: '/tools/claude-code' },
       { text: '模型接入', link: '/setup/' },
+      { text: '业务工作流', link: '/workflow/' },
       { text: '内部经验手册', link: '/experience/how-to-ask' }
     ],
     sidebar: {
@@ -31,6 +32,17 @@ export default defineConfig({
           items: [
             { text: '模型接入总览', link: '/setup/' },
             { text: 'Claude Code 接 DeepSeek', link: '/setup/claude-code-deepseek' }
+          ]
+        }
+      ],
+      '/workflow/': [
+        {
+          text: '业务工作流',
+          items: [
+            { text: '业务工作流总览', link: '/workflow/' },
+            { text: '生成工艺单', link: '/workflow/craftsheet' },
+            { text: '生成效果图', link: '/workflow/effect-image' },
+            { text: '添加定制器', link: '/workflow/customizer' }
           ]
         }
       ],
