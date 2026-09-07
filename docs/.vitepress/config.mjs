@@ -65,7 +65,7 @@ export default defineConfig({
     },
     footer: {
       message: '内部培训资料 · 非官方版',
-      copyright: '仅供团队内部使用'
+      copyright: '仅供团队内部使用 · 维护：贾宇（电商赋能中台）'
     }
   }
 })
