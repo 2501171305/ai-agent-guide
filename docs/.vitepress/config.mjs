@@ -31,7 +31,9 @@ export default defineConfig({
           text: '模型接入',
           items: [
             { text: '模型接入总览', link: '/setup/' },
-            { text: 'Claude Code 接 DeepSeek', link: '/setup/claude-code-deepseek' }
+            { text: 'Claude Code 接 DeepSeek', link: '/setup/claude-code-deepseek' },
+            { text: '申请 DeepSeek Key', link: '/setup/get-deepseek-key' },
+            { text: '申请豆包 Key', link: '/setup/get-doubao-key' }
           ]
         }
       ],
