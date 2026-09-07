@@ -75,3 +75,10 @@ Hermes Agent 是一个**带图形界面的桌面 AI 助手**（Nous Research 出
 - **想深度干活（读文件、写代码、自动化）** → 用 Claude Code
 
 两个可以都装，按需选择。
+
+---
+
+## 装完下一步
+
+装好 Hermes Agent 后，建议先做一次 [画像采集](/tools/profile-interview)——花 15 分钟让它认识你，后面配合更顺。
+

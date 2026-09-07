@@ -22,7 +22,8 @@ export default defineConfig({
             { text: 'Claude Code', link: '/tools/claude-code' },
             { text: 'Codex（ChatGPT）', link: '/tools/codex' },
             { text: 'cc-switch', link: '/tools/cc-switch' },
-            { text: 'Hermes Agent', link: '/tools/hermes-agent' }
+            { text: 'Hermes Agent', link: '/tools/hermes-agent' },
+            { text: '画像采集（初始设置）', link: '/tools/profile-interview' }
           ]
         }
       ],
