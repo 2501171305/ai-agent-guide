@@ -8,13 +8,25 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
+      { text: '🏠 首页', link: '/' },
+      { text: '🚀 30 分钟上手', link: '/quickstart/' },
       { text: '工具安装', link: '/tools/claude-code' },
       { text: '模型接入', link: '/setup/' },
       { text: '业务工作流', link: '/workflow/' },
       { text: '内部经验手册', link: '/experience/how-to-ask' }
     ],
     sidebar: {
+      '/quickstart/': [
+        {
+          text: '🚀 30 分钟上手（零基础）',
+          items: [
+            { text: '总览', link: '/quickstart/' },
+            { text: '① 装豆包', link: '/quickstart/step1-doubao' },
+            { text: '② 装 cc-switch + 接密钥', link: '/quickstart/step2-ccswitch-key' },
+            { text: '③ 装 VS Code + Claude Code', link: '/quickstart/step3-vscode-claude' }
+          ]
+        }
+      ],
       '/tools/': [
         {
           text: '工具安装',
