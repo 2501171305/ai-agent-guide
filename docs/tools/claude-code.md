@@ -21,7 +21,7 @@ Claude Code 是 Anthropic 官方的 AI 助手，这里我们用它的 **VS Code 
 2. 下载 Windows 版本，双击安装
 3. 一路「下一步」，默认选项就行
 
-> 📸 【截图占位】VS Code 官网下载页，红框标出下载按钮
+<!-- 截图待补：VS Code 官网下载页，红框标出下载按钮 -->
 
 ---
 
@@ -32,7 +32,7 @@ Claude Code 是 Anthropic 官方的 AI 助手，这里我们用它的 **VS Code 
 3. 在搜索框输入 `Claude Code`
 4. 认准发布者是 **Anthropic** 的「Claude Code for VS Code」，点「安装」
 
-> 📸 【截图占位】VS Code 扩展市场搜索 Claude Code，红框标出 Anthropic 官方那个
+<!-- 截图待补：VS Code 扩展市场搜索 Claude Code，红框标出 Anthropic 官方那个 -->
 
 > ⚠️ **注意**：搜索会出现好几个名字类似的，一定要认准「Anthropic」官方发布的，别装成第三方仿冒的。
 
@@ -44,7 +44,7 @@ Claude Code 是 Anthropic 官方的 AI 助手，这里我们用它的 **VS Code 
 
 如果没看到图标，**关掉 VS Code 重新打开**。
 
-> 📸 【截图占位】VS Code 左侧出现 Claude Code 图标 + 聊天面板
+<!-- 截图待补：VS Code 左侧出现 Claude Code 图标 + 聊天面板 -->
 
 ---
 
@@ -52,7 +52,7 @@ Claude Code 是 Anthropic 官方的 AI 助手，这里我们用它的 **VS Code 
 
 第一次点开面板，会提示登录。公司用的是国内模型，**登录方式（账号还是密钥）问 IT**，照着配就行。
 
-> 📸 【截图占位】首次登录界面
+<!-- 截图待补：首次登录界面 -->
 
 ---
 
@@ -60,7 +60,7 @@ Claude Code 是 Anthropic 官方的 AI 助手，这里我们用它的 **VS Code 
 
 ### 1. 搜索不到 Claude Code 插件
 
-确认 VS Code 是最新版（1.98 以上），或者关了重开再搜。
+先把 VS Code 更新到最新版，或者关了重开再搜。
 
 ### 2. 装了但图标不显示
 
@@ -73,4 +73,4 @@ Claude Code 是 Anthropic 官方的 AI 助手，这里我们用它的 **VS Code 
 
 ---
 
-装好后，如果需要切换不同模型，可以接着装 [cc-switch](/tools/cc-switch)。
+装好后，接着用 [cc-switch](/tools/cc-switch) 完成模型接入。首次配置公司模型和以后切换供应商都走这一页。

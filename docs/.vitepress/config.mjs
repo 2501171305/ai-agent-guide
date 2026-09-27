@@ -31,6 +31,7 @@ export default defineConfig({
         {
           text: '工具安装',
           items: [
+            { text: '工具总览', link: '/tools/' },
             { text: 'Claude Code', link: '/tools/claude-code' },
             { text: 'Codex（ChatGPT）', link: '/tools/codex' },
             { text: 'cc-switch', link: '/tools/cc-switch' },
