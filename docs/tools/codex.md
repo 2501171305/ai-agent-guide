@@ -22,11 +22,11 @@ Codex 是 OpenAI 出的 AI 助手，2026 年起它已经**合并进了 ChatGPT �
 2. 搜索 `ChatGPT`（或 `OpenAI.Codex`）
 3. 找到官方那个，点「获取 / 安装」
 
-> 📸 【截图占位】Microsoft Store 搜索 ChatGPT，红框标出官方应用
+<!-- 截图待补：Microsoft Store 搜索 ChatGPT，红框标出官方应用 -->
 
 4. 装完后，桌面或开始菜单出现 ChatGPT 图标，双击打开
 
-> 📸 【截图占位】ChatGPT 桌面应用打开后的主界面
+<!-- 截图待补：ChatGPT 桌面应用打开后的主界面 -->
 
 ---
 
@@ -38,7 +38,7 @@ Codex 是 OpenAI 出的 AI 助手，2026 年起它已经**合并进了 ChatGPT �
 2. 在「ChatGPT Work」和「Codex」之间切换
 3. 选「Codex」就进入干活模式了
 
-> 📸 【截图占位】左上角菜单切换到 Codex
+<!-- 截图待补：左上角菜单切换到 Codex -->
 
 ---
 

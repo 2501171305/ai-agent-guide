@@ -23,7 +23,7 @@ Claude Code 默认用 Anthropic 的官方模型，但国内访问不方便。公
 
 双击桌面/开始菜单的 cc-switch 图标，打开它。
 
-> 📸 【截图占位】cc-switch 主界面
+<!-- 截图待补：cc-switch 主界面 -->
 
 ### 第 2 步：新建一个 DeepSeek 配置
 
@@ -35,13 +35,13 @@ Claude Code 默认用 Anthropic 的官方模型，但国内访问不方便。公
    - **接口地址**：`https://api.deepseek.com/anthropic`
    - **API Key**：粘贴 IT 给你的那串 `sk-...`
 
-> 📸 【截图占位】新建配置时填写接口地址和 Key 的画面
+<!-- 截图待补：新建配置时填写接口地址和 Key 的画面 -->
 
 ### 第 3 步：切换到 DeepSeek
 
 填好后，在列表里选中 DeepSeek 这个配置，点「切换」或「应用」。
 
-> 📸 【截图占位】切换到 DeepSeek 配置
+<!-- 截图待补：切换到 DeepSeek 配置 -->
 
 ### 第 4 步：重启 Claude Code
 
@@ -56,7 +56,7 @@ Claude Code 默认用 Anthropic 的官方模型，但国内访问不方便。公
 - ✅ 有正常回复 → 接好了，能用 DeepSeek 了
 - ❌ 报错（比如连不上、Key 无效）→ 检查接口地址和 Key 有没有填错，或找 IT
 
-> 📸 【截图占位】接好后 Claude Code 正常回复
+<!-- 截图待补：接好后 Claude Code 正常回复 -->
 
 ---
 
